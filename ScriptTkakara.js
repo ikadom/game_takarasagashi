@@ -17,7 +17,7 @@ window.onload = function () {
 	game.preload([matigaisunUrl]); 				//データを読み込んでおく
 
 	//一回で正解
-	const ikaideseikaiUrl = "ikkaime.wav";
+	const ikaideseikaiUrl = "USERAUDIO001.WAV";
 	game.preload([ikaideseikaiUrl]); 				//データを読み込んでおく
 
 	//木画像
