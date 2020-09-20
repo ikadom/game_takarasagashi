@@ -195,7 +195,7 @@ window.onload = function () {
 					game.popScene();					//mainSceneシーンを外す
 					game.pushScene(endScene);				//endSceneシーンを読み込ませる
 					//ゲームオーバー後のテキスト表示
-					gameOverText.text = "おめでとう！！５回見つけたよ。おしまい";				//テキストに文字表示 
+					gameOverText.text = "おめでとう！！５回見つけたよ。";				//テキストに文字表示 
 
 				}
 
