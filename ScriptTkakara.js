@@ -50,9 +50,6 @@ window.onload = function () {
 
 		//グローバル変数終わり
 		/////////////////////////////////////////////////
-
-
-
 		const mainScene = new Scene();					//シーン作成
 		game.pushScene(mainScene);  					//mainSceneシーンオブジェクトを画面に設置
 		mainScene.backgroundColor = "white"; 			//mainSceneシーンの背景は黒くした
@@ -173,7 +170,7 @@ window.onload = function () {
 
 
 		///////////////////////////////////////////////////
-		//メインループ　ここに主要な処理をまとめて書こう
+		//メインループ　
 		game.onenterframe = function () {
 			if (state == 0) {
 				clikeCnt = 0;
@@ -198,14 +195,11 @@ window.onload = function () {
 					game.popScene();					//mainSceneシーンを外す
 					game.pushScene(endScene);				//endSceneシーンを読み込ませる
 					//ゲームオーバー後のテキスト表示
-					gameOverText.text = "５回捕まえたよ。おしまい";				//テキストに文字表示 
+					gameOverText.text = "おめでとう！！５回見つけたよ。おしまい";				//テキストに文字表示 
 
 				}
 
 			}
-
-
-
 
 		};
 
